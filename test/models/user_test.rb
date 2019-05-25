@@ -36,13 +36,6 @@ class UserTest < ActiveSupport::TestCase
     refute user.valid?
   end
 
-  test 'user must be invalid if email is not from michelada domain' do
-    user = User.new(email: 'miguel.urbina@gmail.com',
-                    password: 'normalUser',
-                    password_confirmation: 'normalUser')
-    refute user.valid?
-  end
-
   test 'user must be valid' do
     user = User.new(email: 'miguel.urbina@michelada.io',
                     password: 'normalUser',
