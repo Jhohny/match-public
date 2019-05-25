@@ -22,7 +22,6 @@ jobs:
           POSTGRES_DB: mcm_test
           POSTGRES_PASSWORD: ""
 
-
     steps:
       - checkout
 
