@@ -34,3 +34,5 @@ app/.DS_Store
 coverage
 
 /public/uploads
+
+aws-keypar-jhoanthan-amezcua.pem
